@@ -20,16 +20,17 @@ toad. --> toad + dot --> toadot
 
 ### Customizations:
 
-#### Assets:
+#### Assets and File System:
 
 1. blob package files (all_in_one.pck -> separate_1.blob, separate_2.blob);
-2. AES multiple-files encryption;
-3. hot update;
+2. AES multiple-assets encryption;
+3. blob files hot update;
 
 #### Graphic & UI:
 
 1. customized graphic pipeline;
-2. using windows native DWM api to custom the window frame;
+2. windows native DWM api port;
+3. arm embedded devices & mobile devices enhancement with powerVR sdk;
 
 #### Audio:
 
