@@ -16,11 +16,13 @@ toad. --> toad + dot --> toadot
 
 ### Modifications:
 
-- [ ] [RGDS] remove GDScript support(will loss);
+- [ ] [RGDS] remove GDScript support(will loss some performance);
 - [ ] [PRB] change pack/repack/build methods;
 - [ ] [RES] remove OpenGL-ES support;
-- [ ] [WINAPI] minimal windows API;
+- [ ] [WINAPI] minimal windows API magics;
 - [ ] [RWEB] remove web support;
+- [ ] [RUCH] rust with c/cpp as script languages support, natively;
+- [ ] [RPY] remove scons buildsystem support, ucrt_gcc + cmake is enough.
 
 ### Customizations:
 
@@ -48,8 +50,9 @@ toad. --> toad + dot --> toadot
 
 - [ ] [ANA] characters' habit analyzer;
 - [ ] [INTI] characters' intent info;
-- [ ] [AIP] characters' AI panel.
-- [ ] [BAE] assets can be decrypted with some behaviors(flags or message).
+- [ ] [AIP] characters' AI status panel.
+- [ ] [BAE] assets can be decrypted with some behaviors(signals);
+- [ ] [Console] buildin game console panel;
 
 #### Security & Analyzers for debugging:
 
@@ -70,6 +73,20 @@ toad. --> toad + dot --> toadot
 7. upx;
 8. everything;
 9. sbiextra;
+10. gdt-cpus
+
+## Useful Links
+
+1. [godot-docs: escn exporter](https://docs.godotengine.org/en/4.x/tutorials/assets_pipeline/escn_exporter/index.html)
+2. [godot-docs: optimizing 3d performance](https://docs.godotengine.org/en/4.x/tutorials/performance/optimizing_3d_performance.html)
+3. [godot-docs: binary serialization api](https://docs.godotengine.org/en/4.x/tutorials/io/binary_serialization_api.html)
+4. [godot-docs: pck](https://docs.godotengine.org/en/4.x/tutorials/export/exporting_pcks.html#opening-pck-files-at-runtime)
+5. [godot-rust binding](https://github.com/godot-rust/gdext)
+6. [godot-docs: custom platform ports](https://docs.godotengine.org/en/4.x/contributing/development/core_and_modules/custom_platform_ports.html)
+7. [gdt-cpus](https://github.com/WildPixelGames/gdt-cpus)
+8. [Android Vulkan for godot](https://developer.android.google.cn/stories/games/godot-vulkan)
+9. [godot-docs: buildsystem introduction](https://docs.godotengine.org/en/4.x/contributing/development/compiling/introduction_to_the_buildsystem.html)
+10. [godot-docs: SCons building system](https://docs.godotengine.org/en/4.x/about/faq.html#why-does-godot-use-the-scons-build-system)
 
 ## Licence
 
