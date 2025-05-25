@@ -2,51 +2,74 @@
 
 toadot, based on [Godot Engine 4.3 Branch](https://github.com/godotengine/godot/tree/4.3).
 
-my changes of godot.
+my changes of godot, with retro style in modern ways.
+
+not in any production, just a research for now.
 
 ## why this name?
 
 toad. --> toad + dot --> toadot
 
-## Todos
+## Goals
+
+(Explicit Commits with [THIS] or [THIS][fix], e.g: [M][fix]this commit is related the Goals)
 
 ### Modifications:
 
-1. remove GDScript support;
-2. change pack/repack/build methods;
-3. remove OpenGL-ES support;
-4. minimal windows API;
-5. remove web support;
+- [ ] [RGDS] remove GDScript support(will loss);
+- [ ] [PRB] change pack/repack/build methods;
+- [ ] [RES] remove OpenGL-ES support;
+- [ ] [WINAPI] minimal windows API;
+- [ ] [RWEB] remove web support;
 
 ### Customizations:
 
-#### Assets:
+#### Assets & File System:
 
-1. blob package files (all_in_one.pck -> separate_1.blob, separate_2.blob);
-2. AES multiple-files encryption;
-3. hot update;
+- [ ] [BLOB] blob bundles (all_in_one.pck -> separate_1.blob, separate_2.blob);
+- [ ] [AESM] AES blob encryption, multiple keychain;
+- [ ] [BLOBH] blob bundles hot update.
+- [ ] [GIG] minigame engine in a engine.
 
 #### Graphic & UI:
 
-1. customized graphic pipeline;
-2. using windows native DWM api to custom the window frame;
+- [ ] [GP] customized graphic pipeline;
+- [ ] [ARMG] arm embedded devices compatibility (godot has own ktx/khr compression support with PowerVR for mobile nowadays).
+- [ ] [CUT] real-time cutscenes support.
 
-#### Audio:
+#### Audio & AI-TTS framework:
 
-1. tracker music support;
-2. encoded binary audio format (*.bia);
-3. real-time audio synthesizer support;
-4. minimal and fine-grained TTS;
+- [ ] [TKM] tracker music service;
+- [ ] [BIA] encoded binary audio format (*.bia), as a sample bundle for tracker service;
+- [ ] [RAS] real-time audio synthesizer service works with tracker service;
+- [ ] [TTS] a **minimal** and fine-grained AI-TTS service framework (*.pts required).
 
-#### meta-game specifics
+#### meta-game specifics & game-AI:
 
-1. characters' habit analyzer;
-2. characters' intent info;
+- [ ] [ANA] characters' habit analyzer;
+- [ ] [INTI] characters' intent info;
+- [ ] [AIP] characters' AI panel.
+- [ ] [BAE] assets can be decrypted with some behaviors(flags or message).
 
-#### Safety
+#### Security & Analyzers for debugging:
 
-1. thread detection;
-2. sandboxed process;
+- [ ] [TD] thread detection;
+- [ ] [SBP] sandboxed process.
+
+## Middlewares:
+
+> [!IMPORTANT]
+> necessary middlewares will be built in this engine, `godot addons / three-party sdk -> middlewares`.
+
+1. blender;
+2. FFmpeg;
+3. stb;
+4. tracker service [MUPU-core](https://github.com/Gulfy034/mupu-core);
+5. [bia-format](https://github.com/Gulfy034/bis-format);
+6. [tine](https://github.com/Gulfy034/tine);
+7. upx;
+8. everything;
+9. sbiextra;
 
 ## Licence
 
