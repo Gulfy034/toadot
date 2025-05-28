@@ -111,6 +111,9 @@ platform/web/node_modules/
 # ccls
 .ccls-cache/
 
+# cmake-vscode
+build
+
 # clangd
 .clangd/
 .cache/
