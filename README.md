@@ -68,12 +68,13 @@ toad. --> toad + dot --> toadot
 2. FFmpeg;
 3. stb;
 4. tracker service [MUPU-core](https://github.com/Gulfy034/mupu-core);
-5. [bia-format](https://github.com/Gulfy034/bis-format);
+5. [bia-format](https://github.com/Gulfy034/bia-format);
 6. [tine](https://github.com/Gulfy034/tine);
 7. upx;
 8. everything;
 9. sbiextra;
-10. gdt-cpus
+10. gdt-cpus;
+11. openAL;
 
 ## Useful Links
 
